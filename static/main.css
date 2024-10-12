@@ -151,3 +151,17 @@ li:target{
     z-index: 1000;
     padding: 0px;
 }
+
+@media (max-width: 768px) {
+    .text1, .text2, .text3, .text4, .font {
+        font-size: 20px; /* Уменьшение размера текста на мобильных устройствах */
+    }
+    
+    .about_me_text, .pictureme1 {
+        font-size: 18px; /* Уменьшение размера текста в секциях About Me и Picture Me */
+    }
+
+    .text5, .text6 {
+        font-size: 18px; /* Уменьшение размера текста для text5 и text6 */
+    }
+}
